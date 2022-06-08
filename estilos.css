@@ -1,0 +1,265 @@
+/*Este es un comentario en CSS*/
+#contenedor{
+	border:1px solid blue;  /*colocamos un borde que indica los limites del todo el contenedor*/
+}
+
+
+body{
+	      background-image: url("imagenes/imagen 5.2.jpg"); /* Imagen de fondo para el cuerpo del documento html*/
+		  
+
+}
+
+#cabecera{
+	
+	background-color:hsla(0.75turn,100%,50%,0.5); /*color morado con opacidad hsla*/ /*color de fondo de un elemento - contenedor div=cabecera*/
+	padding:20px;
+	text-align: center;
+	border:1px solid blue;  /*colocamos un borde que indica los limites del todo el contenedor*/
+	
+ 
+}
+
+#imglogo{
+
+width: 5px;
+width: 110px;
+height: auto;
+float: left;
+
+}
+
+
+.izquierdo{
+	float:left; /*Propiedad flotante css, especifica cómo debe flotar un elemento*/
+	width:20%; /*Ancho sección menu*/
+	text-align:center; /*Alineción del text*/
+	padding:20px; /*Relleno*/
+	background-color:aqua;
+	background-color:hsla(0.5turn,150%,50%,0.4); /*color morado con opacidad hsla*/
+	
+	
+	height: 100%; /*altura*/    /*Añadimos la altura para que se cubra todo*/
+	margin-top:7px; /*Margen superior*/
+	
+
+	
+	
+	
+}
+
+
+.derecho{
+	float:right; /*Propiedad flotante css, especifica cómo debe flotar un elemento*/
+	width:20%; /*Ancho sección menu*/
+	text-align:center; /*Alineación del text*/
+	padding:20px; /*Relleno*/
+	background-color:hsla(0.5turn,100%,50%,0.4); /*color morado con opacidad hsla*/
+	
+	height: 100%; /*altura*/
+	margin-top:7px; /*Margen superior*/
+	
+	
+}
+*{
+    box-sizing: border-box; /*La box-sinzingpropiedad css nos permite incluir el relleno y el borde en el*/
+}
+
+#scroll{
+	
+   overflow: auto;	
+}
+	
+.cuerpo{
+
+background-color: #6bcccaad;
+padding:30px;
+text-align: justify;
+
+
+height: 100%; /*altura*/
+margin-top:7px; /*Margen superior*/
+float:left; /*permite al elemento main flotar en una posición*/
+width:60%; /*anchura del elemento*/
+
+
+}
+
+
+#alinear{
+	display: flex;
+	
+	margin: 7px;
+}
+
+
+
+@media only screen and (max-width:620px){ /*consulta de medios especificando aplicar condiciones a la pantalla en este caso
+   un ancho máximo de 620px para adaptarse y no se distorcionen los elementos que hay en ella*/
+       .izquierdo, .derecho, .cuerpo, iframe{ /* se consideran los divs que hacen la función para maquetar nuestra página, urilizando las claces .menu, .main, .right
+	   que seran ordenados y adaptados a la pantalla */
+	   	 width:100%;
+		 height: auto;
+		 
+		 
+	}
+	.img{
+        
+          width:100%;
+          max-width:400px;
+    }
+
+    video{
+		
+		width:100%;
+        max-width:400px;
+	}
+	
+}	
+	
+	video{
+		
+		width:100%;
+		max-width:400px;
+	}
+	
+	table{
+		
+		width:100%;
+		max-width:400px;
+		text-align:center;
+	}
+	
+.pie{
+background-color: #ad32ff;
+text-align: center;
+padding: 20px;
+font-size:20;
+background-color:hsla(0.42turn,90%,50%,0.4); /*color morado con opacidad hsla*/
+}
+
+
+body{
+    background-color: aliceblue;
+	text-decoration: underline brown;
+}
+
+
+
+h1{
+	font-style:oblique;
+	
+}
+ h2, h3, h4,h5,h6,h7,h8,h9{
+    font-family:impact,´Arial Narrow Bold´,sans-serif;
+    text-decoration: underline brown;
+    font-size: 20;
+}
+
+h6{
+	font-size: 16px;
+	font-family:impact,´Arial Narrow Bold´,sans-serif;
+    
+}
+
+		
+
+
+p{
+ font-size: 20;
+ font-family: Arail;
+ text-align:justify;
+}
+
+a{
+  color: Brown;
+  font-family: cursive;
+  font-weight:bolder ;
+}
+
+
+.img{
+    display:block; /*display=elemento es bloque o linea. */
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.redess {
+	
+    width:40px;
+     height:40px;
+
+}
+
+.tipos {
+	
+	width: 120px;
+    height: 120px;
+
+}
+
+
+.publicidad {
+	  width:220px;
+     height:300px;
+	
+}
+.class1 {
+	
+    width:440px;
+     height:380px;
+}
+
+
+.class2 {
+
+    width:440px;
+     height:380px;
+}
+
+.class3 {
+    
+	
+	width:440px;
+     height:380px;
+}
+
+
+video{
+    width:640;
+     height:480;
+     margin-left:auto;
+     margin-right: auto;
+	 display: block;
+	 
+}
+iframe{
+
+max-width:95%;
+
+}
+
+table, td, th{ /* estilo a la tabla creada en index.html*/
+	border: 2px solid blue; /*Bordes con un grosor de 2px, con un color solido azul*/
+	width:640;
+	height:100;
+	margin-left:auto;
+	margin-right: auto;
+	
+}
+.izquierdo a {
+	background-color:chocolate;
+    padding: 10px;
+	margin-top: 10px;
+	display:block;
+	width:100%;
+	color:black;
+	font-weight: bold;
+	text-align:center;
+	text-decoration:none;
+}
+ .izquierdo a:hover{
+	  background-color:silver;
+	  color:Green;
+}
+	
